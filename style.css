@@ -1,0 +1,71 @@
+img{
+    height: 350px;
+    width: 200px;
+    transition:
+    width 2s,
+    height 2s,
+    background-color 2s;
+    border-radius: 5px 5px 5px 5px;
+    border: 2px white;  
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+body{
+    background:url(bg2.png);
+    background-size: contain;
+    background-attachment: fixed;
+}
+td{
+    background: rgba(0, 0, 0, 0.3);
+}
+.hold{
+    display: flex;
+    justify-content: end;
+    
+}
+h2,h1{
+    color: white;
+    background:url(bg.jpg);
+    padding: 20px;
+}
+#divide{
+    rotate: 90;
+}
+table{
+    border: black;
+    margin-left: 20px;
+}
+img:hover{
+    
+        filter: blur(50%);
+        width: 200px;
+        height: 200px;
+
+             
+}
+h4{
+    filter: drop-shadow(0 0 5px rgb(255, 255, 255));
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    border-radius: 1px 1px 1px 1px;
+}
+h4:hover{
+    filter: drop-shadow(0 0 5px rgb(255, 32, 11));
+    color: rgb(206, 204, 203);
+    background: url(bg.jpg);
+    padding: 10px;
+
+}
+#heros{
+margin-left: 40px;
+}
+#broken{
+    margin-right: 40px;
+    
+}
+h3{
+    color: aliceblue;
+}
